@@ -10,10 +10,32 @@
 
 ## npx 安装
 
-安装器包 [`@houyuxi/skills@1.1.0`](https://www.npmjs.com/package/@houyuxi/skills) 已发布，可使用以下命令自动安装首个 Skill：
+安装器包 [`@houyuxi/skills@1.1.0`](https://www.npmjs.com/package/@houyuxi/skills) 已发布。需要 Node.js 18 或更高版本；无需全局安装 npm 包。
+
+### 安装到 Codex 与 Claude Code
 
 ```bash
 npx @houyuxi/skills add avoiding-macos-junk-files --target both
+```
+
+### 仅安装到一个平台
+
+```bash
+# Codex：~/.codex/skills/avoiding-macos-junk-files
+npx @houyuxi/skills add avoiding-macos-junk-files --target codex
+
+# Claude Code：~/.claude/skills/avoiding-macos-junk-files
+npx @houyuxi/skills add avoiding-macos-junk-files --target claude
+```
+
+### 预览或更新已有安装
+
+```bash
+# 仅显示将写入的目录，不下载、不修改文件
+npx @houyuxi/skills add avoiding-macos-junk-files --target both --dry-run
+
+# 原子替换已有同名 Skill
+npx @houyuxi/skills add avoiding-macos-junk-files --target both --force
 ```
 
 支持 `--target codex|claude|both`、`--version`、`--force` 和 `--dry-run`。安装器通过 HTTPS 下载 GitHub Release，并在写入前校验 SHA-256。
