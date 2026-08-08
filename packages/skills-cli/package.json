@@ -1,0 +1,40 @@
+{
+  "name": "@houyuxi/skills",
+  "version": "1.1.0",
+  "description": "Houyuxi Skills 的安全安装器，支持 Codex 与 Claude Code。",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "侯钰熙",
+    "email": "houyuxi123@gmail.com",
+    "url": "https://www.houyuxi.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houyuxi012/houyuxi-skills.git",
+    "directory": "packages/skills-cli"
+  },
+  "homepage": "https://github.com/houyuxi012/houyuxi-skills#readme",
+  "bugs": {
+    "url": "https://github.com/houyuxi012/houyuxi-skills/issues"
+  },
+  "bin": {
+    "houyuxi-skills": "bin/houyuxi-skills.cjs"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "ai-skills",
+    "codex",
+    "claude-code",
+    "macos"
+  ]
+}
