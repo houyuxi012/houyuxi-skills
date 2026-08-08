@@ -1,0 +1,4 @@
+interface:
+  display_name: "避免macOS垃圾文件"
+  short_description: "治理 Git、CI、SCP 与压缩制品中的 macOS 元数据"
+  default_prompt: "使用 $avoiding-macos-junk-files 检查并阻止 macOS 元数据进入 Git、CI、SCP 或发布制品。"

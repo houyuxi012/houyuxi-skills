@@ -6,7 +6,7 @@
 
 | Skill | 说明 | 适配平台 | 状态 |
 | --- | --- | --- | --- |
-| `avoiding-macos-junk-files` | 防止 `.DS_Store`、`._*`、AppleDouble、资源叉和扩展属性进入 Git、CI、SCP 与 ZIP/TAR 交付物；提供扫描、清理、暂存、SCP、归档验证和仓库门禁能力。 | Codex、Claude Code | 待导入 |
+| [`avoiding-macos-junk-files`](skills/avoiding-macos-junk-files/SKILL.md) | 防止 `.DS_Store`、`._*`、AppleDouble、资源叉和扩展属性进入 Git、CI、SCP 与 ZIP/TAR 交付物；提供扫描、清理、暂存、SCP、归档验证和仓库门禁能力。 | Codex、Claude Code | 已发布（[v1.1.0](https://github.com/houyuxi012/houyuxi-skills/releases/tag/v1.1.0)） |
 
 ## 许可证
 

@@ -1,0 +1,6 @@
+# BEGIN avoiding-macos-junk-files
+.DS_Store
+._*
+__MACOSX/
+.AppleDouble/
+# END avoiding-macos-junk-files

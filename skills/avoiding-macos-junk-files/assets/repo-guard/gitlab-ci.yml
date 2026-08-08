@@ -1,0 +1,8 @@
+macos-metadata-guard:
+  stage: test
+  image: python:${PYTHON_VERSION}-slim
+  parallel:
+    matrix:
+      - PYTHON_VERSION: ["3.11", "3.14"]
+  script:
+    - python3 tools/macos_hygiene.py check-git . --scope all
