@@ -10,7 +10,7 @@
 
 ## npx 安装
 
-安装器包为 `@houyuxi/skills`。发布到 npm 后，可使用以下命令自动安装首个 Skill：
+安装器包 [`@houyuxi/skills@1.1.0`](https://www.npmjs.com/package/@houyuxi/skills) 已发布，可使用以下命令自动安装首个 Skill：
 
 ```bash
 npx @houyuxi/skills add avoiding-macos-junk-files --target both
